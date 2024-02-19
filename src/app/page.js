@@ -4,9 +4,18 @@ import Profile from "./sections/Profile";
 
 export default function Home() {
   return (
-    <main className="flex ">
+    <main className="ml-44 flex  h-[100vh]">
       <Profile />
-      <Feed />
+      <section className="h-[100vh] overflow-y-scroll">
+        <Feed />
+        <Feed />
+        <Feed />
+        <Feed />
+        <Feed />
+        <Feed />
+        <Feed />
+        <Feed />
+      </section>
     </main>
   );
 }

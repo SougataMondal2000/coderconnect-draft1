@@ -6,7 +6,7 @@ import coding from "../assets/coding.jpg";
 
 const page = () => {
   return (
-    <div className="bg-black  h-[100vh]">
+    <div className="h-[100vh]">
       <nav className="h-[10%] flex justify-between items-center px-40 py-5">
         <h1 className="text-white text-xl font-bold">CoderConnect</h1>
         <Button label={"Log in"} bgColor={"white"} textColor={"black"}></Button>
