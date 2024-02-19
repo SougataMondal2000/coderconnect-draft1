@@ -12,7 +12,7 @@ export default function Home() {
       </nav>
       <section className="ml-44 flex">
         <Profile />
-        <section className="h-[85vh] mt-10 overflow-y-scroll">
+        <section className="h-[85vh] mt-10 scrollbar-thin overflow-y-scroll">
           <Feed />
           <Feed />
           <Feed />
