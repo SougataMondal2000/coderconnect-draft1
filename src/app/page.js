@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="h-[100vh]">
       <nav className="flex justify-between items-center px-40 py-5">
-        <h1 className="text-[#14F713] text-xl font-bold ">CoderConnect</h1>
+        <h1 className="text-[#14F713] text-2xl font-bold ">CoderConnect</h1>
         <Button label={"Log in"} bgColor={"white"} textColor={"black"}></Button>
       </nav>
       <section className="ml-44 flex">

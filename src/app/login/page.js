@@ -8,7 +8,7 @@ const page = () => {
   return (
     <div className="  h-[100vh]">
       <nav className="h-[10%] flex justify-between items-center px-40 py-5">
-        <h1 className="text-xl font-bold text-[#14F713]">CoderConnect</h1>
+        <h1 className="text-2xl font-bold text-[#14F713]">CoderConnect</h1>
         <Button
           label={"Sign up"}
           bgColor={"white"}
