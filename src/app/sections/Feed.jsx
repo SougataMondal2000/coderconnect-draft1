@@ -3,7 +3,7 @@ import React from "react";
 
 const Feed = () => {
   return (
-    <div className="w-[800px] h-fit p-5 border border-gray-300 rounded-3xl m-10 bg-[#323232]">
+    <div className="w-[800px] h-fit p-5 border border-gray-300 rounded-3xl mx-10 bg-[#323232] mb-10">
       <div className="pl-5  flex text-white items-center">
         <img
           className=" h-[50px] w-[50px] overflow:hidden rounded-full"

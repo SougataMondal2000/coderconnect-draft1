@@ -3,7 +3,7 @@ import React from "react";
 
 const Profile = () => {
   return (
-    <div className="bg-[#323232] w-[400px] rounded-3xl pl-4 pr-4 m-10 object-cover">
+    <div className="bg-[#323232] w-[400px] rounded-3xl pl-4 pr-4 m-10 object-cover h-fit">
       <div className="overflow-hidden w-full flex justify-center pt-10 pb-4">
         <img
           className="rounded-full object-cover h-[150px] w-[150px]"
