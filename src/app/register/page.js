@@ -8,7 +8,7 @@ const page = () => {
   return (
     <div className="h-[100vh]">
       <nav className="h-[10%] flex justify-between items-center px-40 py-5">
-        <h1 className="text-[#14F713] text-xl font-bold">CoderConnect</h1>
+        <h1 className="text-[#14F713] text-2xl font-bold">CoderConnect</h1>
         <Button label={"Log in"} bgColor={"white"} textColor={"black"}></Button>
       </nav>
       <section className="flex items-center justify-center h-[75%]">
