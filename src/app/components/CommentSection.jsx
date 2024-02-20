@@ -1,4 +1,3 @@
-import { IoSend } from "react-icons/io5";
 import Button from "./Button";
 
 const CommentSection = () => {
