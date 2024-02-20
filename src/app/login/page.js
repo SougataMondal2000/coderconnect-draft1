@@ -9,11 +9,13 @@ const page = () => {
     <div className="  h-[100vh]">
       <nav className="h-[10%] flex justify-between items-center px-40 py-5">
         <h1 className="text-xl font-bold text-[#14F713]">CoderConnect</h1>
-        <Button
-          label={"Sign up"}
-          bgColor={"white"}
-          textColor={"black"}
-        ></Button>
+        <Link href="/register">
+          <Button
+            label={"Sign up"}
+            bgColor={"white"}
+            textColor={"black"}
+          ></Button>
+        </Link>
       </nav>
       <section className="flex items-center justify-center h-[75%]">
         <div className="w-full flex justify-center items-center lg:px-32  p-5 flex-wrap lg:gap-28 md:gap-4 gap-28">
@@ -34,19 +36,18 @@ const page = () => {
             </div>
           </div>
           <div className="relative">
-  {/* Green Shadow */}
-  <div className="absolute bg-[#14F713] rounded-3xl shadow-md lg:w-[350px] lg:h-[350px] md:w-[275px] md:h-[275px]"></div>
-  
-  {/* Image */}
-  <Image
-    src={coding}
-    alt=""
-    width={350}
-    height={350}
-    className="rounded-3xl lg:w-[350px] lg:h-[350px] md:w-[275px] md:h-[275px] object-cover relative right-10 top-10"
-  />
-</div>
+            {/* Green Shadow */}
+            <div className="absolute bg-[#14F713] rounded-3xl shadow-md lg:w-[350px] lg:h-[350px] md:w-[275px] md:h-[275px]"></div>
 
+            {/* Image */}
+            <Image
+              src={coding}
+              alt=""
+              width={350}
+              height={350}
+              className="rounded-3xl lg:w-[350px] lg:h-[350px] md:w-[275px] md:h-[275px] object-cover relative right-10 top-10"
+            />
+          </div>
         </div>
       </section>
       <footer className="h-[15%] bg-[#14F713] text-black w-full fixed bottom-0 flex justify-center items-center">

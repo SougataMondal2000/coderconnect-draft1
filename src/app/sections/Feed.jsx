@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import CommentSection from "../components/CommentSection";
 
 const Feed = () => {
   return (
@@ -22,6 +23,7 @@ const Feed = () => {
           ducimus.
         </p>
       </div>
+      <CommentSection />
     </div>
   );
 };
