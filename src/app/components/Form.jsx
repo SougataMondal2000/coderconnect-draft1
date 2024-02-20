@@ -48,7 +48,7 @@ const Form = () => {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="text-black outline-none p-1"
+              className="text-black outline-none p-1 rounded-sm border border-[#14F713]"
             />
 
             <Button
@@ -73,15 +73,15 @@ const Form = () => {
               name="role"
               value={formData.role}
               onChange={handleChange}
-              className="text-black outline-none p-1"
+              className="text-black outline-none p-1 rounded-sm border border-[#14F713]"
             >
               <option value="" className="text-black outline-none p-1"></option>
-              <option value="student" className="text-black outline-none p-1">
+              <option value="student" className="text-black outline-none p-1 rounded-sm border border-[#14F713]">
                 Student
               </option>
               <option
                 value="professional"
-                className="text-black outline-none p-1"
+                className="text-black outline-none p-1 rounded-sm border border-[#14F713]"
               >
                 Professional
               </option>
@@ -115,7 +115,7 @@ const Form = () => {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="text-black outline-none p-1 w-fit"
+              className="text-black outline-none p-1 w-fit rounded-sm border border-[#14F713]"
             />
             <Button
               label="Submit"
