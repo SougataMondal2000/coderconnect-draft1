@@ -28,12 +28,12 @@ const page = () => {
             </p>
             {openForm === false && (
               <div className="flex items-center gap-2">
-                <Link href="/">
+                <Link href="/home">
                   <Button
                     label="Get started"
                     bgColor={"#14F713"}
                     textColor={"black"}
-                    onClick={handleOpenForm}
+                    // onClick={handleOpenForm}
                   ></Button>
                 </Link>
               </div>
