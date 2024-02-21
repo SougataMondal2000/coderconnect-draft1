@@ -38,7 +38,15 @@ export default function Home() {
             ></Button>
           </div>
           {/* raju */}
-          <section>
+          <div
+  style={{
+    backgroundColor: "gray",
+    borderRadius: "20px", 
+    padding: "20px", 
+  }}
+>
+  <section>
+  <section>
             {" "}
             <div
               className="modal"
@@ -58,22 +66,27 @@ export default function Home() {
                 name="description"
                 value={commentData.description}
                 onChange={handleInputChange}
-                style={{ marginBottom: "20px", width: "100%" }}
+                style={{ marginBottom: "20px", width: "80%" }}
               />
 
               <button
                 onClick={handleSubmit}
                 style={{
-                  background: "white",
+                  background: "#14F713",
                   color: "black",
                   padding: "10px 20px",
                   cursor: "pointer",
+                  borderRadius: "20px",
                 }}
               >
                 Submit
               </button>
             </div>
           </section>
+  </section>
+</div>
+
+          
           {/* raju */}
         </div>
         <section className="h-[85vh] mt-10 scrollbar-thin overflow-y-scroll">
