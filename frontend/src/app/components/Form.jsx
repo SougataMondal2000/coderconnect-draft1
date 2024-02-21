@@ -19,7 +19,7 @@ const Form = () => {
         ? formData.name !== ""
         : currentPage === 2
         ? formData.role !== ""
-        : formData.email !== "";
+        : formData.bio !== "";
 
     if (isCurrentPageValid) {
       if (currentPage === 3) {
@@ -105,20 +105,22 @@ const Form = () => {
         );
       case 3:
         return (
-          <div className="text-white flex gap-4 items-center justify-start">
+          <div className="text-white flex gap-4 items-start justify-start">
             <label
-              htmlFor="email"
+              htmlFor="bio"
               className="text-[#14F713] font-semibold text-lg"
             >
-              Email:
+              Enter your Bio:
             </label>
             <input
-              type="email"
-              id="email"
-              name="email"
-              value={formData.email}
+              type="text"
+              id="bio"
+              name="bio"
+              placeholder="Tell us about yourself"
+              value={formData.bio}
               onChange={handleChange}
               className="text-black outline-none p-1 w-fit rounded-sm border border-[#14F713]"
+              
             />
             <Button
               label="Submit"
