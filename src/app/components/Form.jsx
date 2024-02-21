@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Button from "./Button";
+import { PiStudentFill } from "react-icons/pi";
+
 
 const Form = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -77,8 +79,8 @@ const Form = () => {
             >
               <option value="" className="text-black outline-none p-1"></option>
               <option value="student" className="text-black outline-none p-1 rounded-sm border border-[#14F713]">
-                Student
-              </option>
+              Student
+            </option>
               <option
                 value="professional"
                 className="text-black outline-none p-1 rounded-sm border border-[#14F713]"
