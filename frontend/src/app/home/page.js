@@ -46,43 +46,38 @@ export default function Home() {
   }}
 >
   <section>
+  <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 z-50 flex justify-center items-center">
   <section>
-            {" "}
-            <div
-              className="modal"
-              style={{ background: "black", color: "white", padding: "20px" }}
-            >
-              <h2>Title</h2>
-              <input
-                type="text"
-                name="title"
-                value={commentData.title}
-                onChange={handleInputChange}
-                style={{ marginBottom: "10px" }}
-              />
 
-              <h2>Description</h2>
-              <textarea
-                name="description"
-                value={commentData.description}
-                onChange={handleInputChange}
-                style={{ marginBottom: "20px", width: "80%" }}
-              />
-
-              <button
-                onClick={handleSubmit}
-                style={{
-                  background: "#14F713",
-                  color: "black",
-                  padding: "10px 20px",
-                  cursor: "pointer",
-                  borderRadius: "20px",
-                }}
-              >
-                Submit
-              </button>
-            </div>
-          </section>
+  {/* Modal container */}
+  <div className="fixed flex justify-center items-center top-0 left-0 w-full h-screen z-60">
+    <div className="p-20 rounded-lg shadow-md bg-white">
+      <h2 className="text-2xl font-semibold mb-4">Title</h2>
+      <input
+        type="text"
+        name="title"
+        value={commentData.title}
+        onChange={handleInputChange}
+        className="w-full mb-4 border rounded-md p-2"
+      />
+      <h2 className="text-2xl font-semibold mb-4">Description</h2>
+      <textarea
+        name="description"
+        value={commentData.description}
+        onChange={handleInputChange}
+        className="w-full h-20 mb-4 border rounded-md p-2"
+      />
+      <button
+        onClick={handleSubmit}
+        className="bg-green-500 hover:bg-green-700 text-white px-4 py-2 rounded-md cursor-pointer"
+      >
+        Submit
+      </button>
+    </div>
+  </div>
+</section>
+</div>
+  
   </section>
 </div>
 
